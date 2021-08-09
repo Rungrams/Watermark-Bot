@@ -52,7 +52,7 @@ async def HelpWatermark(bot, cmd):
 	await cmd.reply_text(
 		text=Config.USAGE_WATERMARK_ADDER,
 		parse_mode="Markdown",
-		reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005"), InlineKeyboardButton("Support Group", url="https://t.me/DevsZone")], [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")], [InlineKeyboardButton("Source Code", url="https://github.com/AbirHasan2005/Watermark-Bot")]]),
+		reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("CHANNEL📢", url="https://t.me/tobot_update"), InlineKeyboardButton("Group👥", url="https://t.me/tobotupdate")], [InlineKeyboardButton("REPO🤖", url="https://t.me/bot_repo")], [InlineKeyboardButton("DEVELOPER👩‍💻", url="https://t.me/rungram")]]),
 		disable_web_page_preview=True
 	)
 
@@ -453,7 +453,7 @@ async def button(bot, cmd: CallbackQuery):
 					reply_markup=InlineKeyboardMarkup(
 						[
 							[
-								InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+								InlineKeyboardButton("⭕Join Updates Channel🔍", url=invite_link.invite_link)
 							],
 							[
 								InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
@@ -465,7 +465,7 @@ async def button(bot, cmd: CallbackQuery):
 				return
 			except Exception:
 				await cmd.message.edit(
-					text="Something went Wrong. Contact my [Support Group](https://t.me/DevsZone).",
+					text="Something went Wrong. Contact my [Group👥](https://t.me/tobotupdate).",
 					parse_mode="markdown",
 					disable_web_page_preview=True
 				)
